@@ -5,15 +5,15 @@
 
 body {
   font-family: "Roboto", sans-serif;
+  background-color: rgb(228, 204, 204);
 }
 
 .card-item {
   background-color: white;
   max-width: 500px;
   max-height: 600px;
+  margin: auto;
   margin-top: 10%;
-  margin-left: 40%;
-  border-style: ridge;
 }
 
 .card-header {
