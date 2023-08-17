@@ -1,80 +1,111 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-  font-family: "Roboto", sans-serif;
-  background-color: rgb(228, 204, 204);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #e6ebf2;
 }
 
-.card-item {
-  background-color: white;
-  max-width: 500px;
-  max-height: 600px;
+.container {
+  width: 70%;
+  height: 800px;
   margin: auto;
-  margin-top: 10%;
 }
 
-.card-header {
+.row {
+  margin-top: 15%;
+  height: 360px;
   display: flex;
+}
+
+.left-side {
+  width: calc(100% / 2);
+  padding-top: 10%;
+}
+
+.left-side img {
+  width: 200px;
+}
+
+.left-side h2 {
   width: 100%;
-}
-
-.left-logo {
-  width: 15%;
-  margin: 10px 0 10px 16px;
-}
-
-.left-logo .logo {
-  width: 50px;
-  height: 50px;
-  background-color: red;
-  border-radius: 50%;
-}
-
-.left-logo .logo p {
-  font-size: 16px;
-  color: white;
-  text-align: center;
-  padding-top: 16px;
-}
-
-.food-info {
-  width: 75%;
-  font-size: 20px;
-  color: #978f85;
-}
-
-.food-info .food-name {
-  margin-top: 10px;
-}
-
-.menu-icon {
-  margin-top: 20px;
-  font-size: 25px;
-}
-
-.card-image {
-  width: 100%;
-}
-
-.card-description p {
-  margin: 20px;
-  color: #978f85;
-}
-
-.card-footer {
-  display: flex;
-  color: #978f85;
-}
-
-.card-footer .footer-left {
-  width: 85%;
-  margin: 10px 20px;
-}
-
-.card-footer .footer-left i {
-  font-size: 20px;
+  font-size: 24px;
+  padding-left: 20px;
   padding-right: 20px;
+  font-weight: 400;
 }
+
+.right-side {
+  width: calc(100% / 2);
+  background-color: white;
+}
+
+.right-side input {
+  width: 90%;
+  margin: 20px 20px 0 20px;
+  padding: 15px;
+  border-radius: 6px;
+  border: solid 1px;
+}
+
+.submit-button {
+  width: 90%;
+  margin: 20px 20px 0 20px;
+  padding: 15px;
+  background-color: #1877f2;
+  color: white;
+  font-size: 24px;
+  border-radius: 6px;
+  border: none;
+}
+
+.forgot-password {
+  width: 90%;
+  margin: 0 20px 0 20px;
+  padding: 14px;
+  text-align: center;
+  color: #1877f2;
+  font-size: 18px;
+}
+
+.forgot-password a {
+  text-decoration: none;
+}
+
+hr {
+  width: 90%;
+  margin: 0 20px 0 20px;
+}
+
+.create-account-button {
+  width: 50%;
+  margin: 20px auto;
+  padding: 15px;
+  background-color: #42b72a;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  border-radius: 6px;
+  border: none;
+}
+
+.create-account-button a {
+  text-decoration: none;
+  color: white;
+}
+
+.registration-message {
+  margin-top: 50px;
+}
+
+.registration-message a {
+  text-decoration: none;
+  color: black;
+}
+
+.registration-message a:hover {
+  text-decoration: underline;
+} 
