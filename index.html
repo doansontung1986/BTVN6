@@ -22,36 +22,78 @@
       type="image/x-icon"
     />
     <link rel="stylesheet" href="./assets/css/style.css" />
-    <title>BTVN 5 - Java 22</title>
+    <title>BTVN 6 - Java 22</title>
   </head>
   <body>
+    <div class="top-header">
+      <h1>
+        <img src="./assets/images/google-workspace-lockup.svg" alt="" />
+      </h1>
+    </div>
+
     <div class="container">
       <div class="row">
         <div class="left-side">
-          <img src="./assets/images/facebook.svg" alt="" />
-          <h2>
-            Facebook giúp bạn kết nối và chia sẻ với mọi người trong cuộc sống
-            của bạn.
-          </h2>
+          <h2>Let's get started</h2>
+          <input type="text" name="business" placeholder="Business name" />
+          <p>Number of employees, including you</p>
+          <div class="employee">
+            <div class="employee-item">
+              <input type="radio" /><label>Just you</label>
+            </div>
+            <div class="employee-item">
+              <input type="radio" /><label>2 - 9</label>
+            </div>
+            <div class="employee-item">
+              <input type="radio" /><label>10 - 99</label>
+            </div>
+            <div class="employee-item">
+              <input type="radio" /><label>100 - 299</label>
+            </div>
+            <div class="employee-item">
+              <input type="radio" /><label>300+</label>
+            </div>
+          </div>
+          <select>
+            <option value="vietnam">Vietnam</option>
+          </select>
+          <button>Next</button>
         </div>
         <div class="right-side">
-          <form action="#">
-            <input type="email" placeholder="Email hoặc số điện thoại" />
-            <input type="password" placeholder="Mật khẩu" />
-            <button class="submit-button">Đăng nhập</button>
-            <div class="forgot-password">
-              <a href="#">Quên mật khẩu?</a>
+          <div class="remotely">
+            <div class="meet">
+              <img src="./assets/images/Meet_Product_Icon.svg" alt="" />
+              <h3>Meet</h3>
             </div>
-            <hr />
-            <div class="create-account-button">
-              <a href="#">Tạo tài khoản mới</a>
+            <div class="remotely-desc">
+              <h4>Work remotely with confidence</h4>
+              <p>
+                Use Google Meet to host secure, high-quality video
+                meetings—right from your email or calendar
+              </p>
             </div>
-          </form>
-          <div class="registration-message">
-            <a href="#">Tạo Trang</a>
-            <span
-              >dành cho người nổi tiếng, thương hiệu hoặc doanh nghiệp.</span
-            >
+          </div>
+          <div class="workspace">
+            <h2>Do more with Google Workspace</h2>
+            <img src="./assets/images/products_lockup_icon.svg" alt="" />
+          </div>
+          <div class="workspace-desc">
+            <ul>
+              <li><i class="fas fa-check"></i>Custom email with your domain</li>
+              <li>
+                <i class="fas fa-check"></i>Cloud-based, no installation needed
+              </li>
+              <li>
+                <i class="fas fa-check"></i>Advanced security and admin features
+              </li>
+              <li>
+                <i class="fas fa-check"></i>Ease of mind with 24/7 support
+              </li>
+              <li>
+                <i class="fas fa-check"></i>No charge for 14-day trial, monthly
+                charge after
+              </li>
+            </ul>
           </div>
         </div>
       </div>

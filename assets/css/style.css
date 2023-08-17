@@ -6,7 +6,21 @@
 
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #e6ebf2;
+  background-color: white;
+}
+
+.top-header {
+  margin-top: 20px;
+  border-bottom: 1px solid #dadce0;
+}
+
+.top-header h1 {
+  width: 15%;
+  margin: auto;
+}
+
+.top-header img {
+  object-fit: cover;
 }
 
 .container {
@@ -16,14 +30,13 @@ body {
 }
 
 .row {
-  margin-top: 15%;
   height: 360px;
   display: flex;
+  padding-top: 20px;
 }
 
 .left-side {
   width: calc(100% / 2);
-  padding-top: 10%;
 }
 
 .left-side img {
@@ -31,81 +44,118 @@ body {
 }
 
 .left-side h2 {
-  width: 100%;
-  font-size: 24px;
-  padding-left: 20px;
-  padding-right: 20px;
+  font-size: 28px;
   font-weight: 400;
+}
+
+.left-side input[name="business"] {
+  width: 80%;
+  margin: 20px 0;
+  padding: 25px;
+  border-radius: 5px;
+  border: 1px solid;
+}
+
+.left-side p {
+  margin: 10px 0;
+  font-size: 14px;
+}
+
+.employee {
+  margin: 20px 0;
+}
+
+.employee-item {
+  width: 100%;
+  font-size: 14px;
+}
+
+.employee-item input[type="radio"] {
+  margin: 15px 20px;
+}
+
+select {
+  width: 80%;
+  padding: 25px;
+}
+
+button {
+  width: 20%;
+  margin-top: 30px;
+  padding: 10px;
+  background-color: blueviolet;
+  color: white;
+  border-radius: 5px;
 }
 
 .right-side {
   width: calc(100% / 2);
   background-color: white;
+  border: 1px solid #dadce0;
+  height: 520px;
+  padding-left: 30px;
 }
 
-.right-side input {
-  width: 90%;
-  margin: 20px 20px 0 20px;
-  padding: 15px;
-  border-radius: 6px;
-  border: solid 1px;
+.remotely {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  font-size: 16px;
+  border-bottom: 1px solid #dadce0;
 }
 
-.submit-button {
-  width: 90%;
-  margin: 20px 20px 0 20px;
-  padding: 15px;
-  background-color: #1877f2;
-  color: white;
-  font-size: 24px;
-  border-radius: 6px;
-  border: none;
+.meet {
+  width: 30%;
 }
 
-.forgot-password {
-  width: 90%;
-  margin: 0 20px 0 20px;
-  padding: 14px;
-  text-align: center;
-  color: #1877f2;
-  font-size: 18px;
-}
-
-.forgot-password a {
-  text-decoration: none;
-}
-
-hr {
-  width: 90%;
-  margin: 0 20px 0 20px;
-}
-
-.create-account-button {
+.meet img {
   width: 50%;
-  margin: 20px auto;
-  padding: 15px;
-  background-color: #42b72a;
-  color: white;
-  font-size: 18px;
-  text-align: center;
-  border-radius: 6px;
-  border: none;
+  margin-top: 30px;
 }
 
-.create-account-button a {
-  text-decoration: none;
-  color: white;
+.meet h3 {
+  padding-left: 10px;
+  font-weight: 400;
 }
 
-.registration-message {
-  margin-top: 50px;
+.remotely-desc {
+  width: 75%;
+  padding: 30px 0;
+  font-size: 14px;
 }
 
-.registration-message a {
-  text-decoration: none;
-  color: black;
+.remotely-desc h4 {
+  font-weight: 600;
 }
 
-.registration-message a:hover {
-  text-decoration: underline;
-} 
+.remotely-desc p {
+  margin: 10px 0 0 0;
+}
+
+.workspace {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.workspace h2 {
+  width: 80%;
+  padding-left: 50px;
+  font-weight: 400;
+}
+
+.workspace img {
+  width: 50%;
+  margin: 20px 0 10px 30px;
+}
+
+.workspace-desc {
+  margin-left: 40px;
+}
+
+.workspace-desc ul li {
+  list-style: none;
+}
+
+.workspace-desc ul li i {
+  padding: 10px;
+}
